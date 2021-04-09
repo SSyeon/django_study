@@ -2,30 +2,28 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+
     <title>
         {% block title %}
-        게시판예제입니다.
+        게시판 예제입니다.
         {% endblock %}
-
     </title>
-    {% block styles %}
-    <style>
-        .myclass{
-        color : blue;
-        }
-    </style>
-    {% endblock%}
-    {% block scripts %}
-    <script LANGUAGE="javascript">
-        function testFunction(){
-        alert("Javascript functions...");
-        }
-    </script>
-    {% endblock %}
-</head>
-<body>
-{%block body%}
-{% endblock %}
 
+
+
+
+    {% block styles %}
+
+
+
+    {% endblock %}
+
+</head>
+
+<body>
+
+    {% block body %}
+    {% endblock %}
